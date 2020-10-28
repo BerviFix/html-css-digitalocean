@@ -1,12 +1,15 @@
 * {
   font-family: arial;
+  color: black;
 }
 
 .logo_img_ocean {
   width: 200px;
-  line-height: 58px;
+  line-height: 80px;
 }
-
+header {
+  height: 80px;
+}
 nav img {
   max-width: 100%;
   max-height: 100%;
@@ -15,7 +18,7 @@ nav img {
 
 .burger_menu {
   height: 58px;
-  line-height: 58px;
+  line-height: 80px;
 }
 .burger_menu i {
   font-size: 25px;
@@ -25,11 +28,12 @@ nav img {
 
 .navigation_list {
   float: left;
-  line-height: 70px;
+  margin-left: 80px;
+  line-height: 91px;
 }
 .user_list {
   float: right;
-  line-height: 75px;
+  line-height: 91px;
 }
 
 .list_inline {
@@ -45,5 +49,121 @@ nav img {
   font-size: 18px;
   font-weight: 500;
   color: black;
+}
+.list_inline li i {
+  font-size: 18px;
+}
 
+.btn_nav {
+  color: #006aff;
+  border-color: #006aff;
+  font-size: 16px;
+}
+
+#jumbotron {
+  width: 100vw;
+  padding-bottom: 50px;
+  background-image: url(https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.jumbo_top h1 {
+  padding-top: 50px;
+  font-weight: 550;
+  font-size: 35px;
+  color: white;
+}
+.jumbo_top p {
+  font-size: 22px;
+  font-weight: 400;
+  opacity: 0.8;
+  color: white;
+}
+.sign_up_box {
+  width: 100%;
+  height: 350px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.sign_up_box h2 {
+  padding-top: 30px;
+  font-weight: bolder;
+}
+.sign_up_box span {
+  display: block;
+  padding-top: 10px;
+  color: #006aff;
+}
+.sign_up_box input {
+  display: block;
+  width: 90%;
+  margin: 10px auto;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  opacity: 0.8;
+  padding: 10px;
+}
+.btn_sign_up {
+  display: block;
+  width: 90%;
+  margin: 10px auto;
+  background-color: #006aff;
+  color: white;
+  border-radius: 5px;
+  font-weight: bolder;
+  opacity: 0.7;
+}
+.btn_sign_up_google {
+  display: block;
+  width: 90%;
+  margin: 10px auto;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  font-weight: bolder;
+  opacity: 0.7;
+}
+.btn_sign_up_google i {
+  float: left;
+  font-size: 18px;
+  background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+.jumbo_bottom p {
+  font-size: 13px;
+  padding-top: 5px;
+}
+.jumbo_bottom span {
+  display: inline;
+  color: #006aff;
+}
+
+#customer {
+  padding-bottom: 30px;
+  background-color: #F3F5F9;
+}
+#customer h5 {
+  color: gray;
+  font-weight: 530;
+  font-size: 16px;
+  padding-top: 40px;
+}
+.customer_logo {
+  display: inline-block;
+  width: 200px;
+}
+.customer_logo img {
+  width: 100%;
+  height: 100%;
+}
+#customer a {
+  font-size: 16px;
+  color: #006aff;
 }
