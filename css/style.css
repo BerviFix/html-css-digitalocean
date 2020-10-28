@@ -24,11 +24,11 @@ nav img {
 }
 
 .navigation_list {
-  display: inline-block;
+  float: left;
   line-height: 70px;
 }
 .user_list {
-  display: inline-block;
+  float: right;
   line-height: 75px;
 }
 
