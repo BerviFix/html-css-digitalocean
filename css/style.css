@@ -225,19 +225,35 @@ nav img {
   opacity: 0.6;
 }
 #dev_sliders {
-  width: 90%;
+  position: relative;
+  width: 70%;
   height: 400px;
 }
-#dev_sliders i {
-  display: inline-block;
-  font-size: 30px;
+.chevron_right {
+  float: left;
+  position: absolute;
+  top: 55%;
+  left: 125%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+}
+.chevron_left {
+  float: left;
+  position: absolute;
+  top: 55%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
 }
 #dev_sliders img {
-  display: inline-block;
-  width: 50%;
-  height: 90%;
-  /* padding-top: 80px;
-  padding-bottom: 20px; */
+  float: left;
+  width: 300px;
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  padding-top: 80px;
+  padding-bottom: 20px;
 }
 #dev_sliders p {
   font-size: 16px;
