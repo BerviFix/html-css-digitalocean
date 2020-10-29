@@ -2,6 +2,11 @@
   font-family: arial;
   color: black;
 }
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
+}
 .wrapper {
   width: 60%;
   margin: 0 auto;
@@ -232,32 +237,35 @@ nav img {
 .chevron_right {
   float: left;
   position: absolute;
-  top: 55%;
-  left: 125%;
+  top: 70%;
+  left: 120%;
   transform: translate(-50%, -50%);
   font-size: 40px;
 }
 .chevron_left {
   float: left;
   position: absolute;
-  top: 55%;
-  left: 15%;
+  top: 70%;
+  left: 20%;
   transform: translate(-50%, -50%);
   font-size: 40px;
 }
 #dev_sliders img {
   float: left;
-  width: 300px;
+  max-width: 90%;
   position: absolute;
   top: 50%;
   left: 70%;
   transform: translate(-50%, -50%);
-  padding-top: 80px;
+  padding-top: 200px;
   padding-bottom: 20px;
 }
-#dev_sliders p {
+#dev_sliders figcaption {
+  position: absolute;
   font-size: 16px;
   color: black;
+  padding-top: 400px;
+  padding-left: 120px;
 }
 
 
