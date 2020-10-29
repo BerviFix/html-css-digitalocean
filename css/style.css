@@ -6,6 +6,12 @@
   width: 60%;
   margin: 0 auto;
 }
+.padding_left_reset {
+  padding-left: 0;
+}
+.padding_t_twenty {
+  padding-top: 20px;
+}
 
 .logo_img_ocean {
   width: 200px;
@@ -174,8 +180,8 @@ nav img {
   color: #006aff;
 }
 
-#deploy {
-  height: 800px;
+#deploy:last-child {
+  padding-bottom: 50px;
 }
 #deploy h2 {
   padding-top: 30px;
@@ -199,11 +205,50 @@ nav img {
   opacity: 0.6;
   list-style-type: none;
 }
+#deploy h4 {
+  font-weight: bolder;
+}
+
+#developers {
+  height: 800px;
+  background-color: #F3F5F9;
+}
+#developers:last-child {
+  padding-bottom: 50px;
+}
+#developers h2 {
+  padding-top: 30px;
+  font-size: 30px;
+}
+#developers  p{
+  font-size: 22px;
+  opacity: 0.6;
+}
+#dev_sliders {
+  width: 90%;
+  height: 400px;
+}
+#dev_sliders i {
+  display: inline-block;
+  font-size: 30px;
+}
+#dev_sliders img {
+  display: inline-block;
+  width: 50%;
+  height: 90%;
+  /* padding-top: 80px;
+  padding-bottom: 20px; */
+}
+#dev_sliders p {
+  font-size: 16px;
+  color: black;
+}
+
 
 @media screen and (min-width: 768px) {
   .wrapper_list {
-    width: 60%;
-    margin: 50 auto;
+    width: 90%;
+    margin: 50px auto;
   }
 }
 
