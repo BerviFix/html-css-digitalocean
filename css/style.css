@@ -336,20 +336,20 @@ nav img {
 #dev_teams_sliders .chevron_left {
   position: absolute;
   top: 50%;
-  left: 20%;
+  left: 18%;
   transform: translate(-50%, -50%);
   font-size: 40px;
 }
 #dev_teams_sliders .chevron_right {
   position: absolute;
   top: 50%;
-  left: 84%;
+  left: 86%;
   transform: translate(-50%, -50%);
   font-size: 40px;
 }
 .team_box {
   width: 60%;
-  height: 380px;
+  height: 90%;
   background-color: white;
   border-radius: 5px;
   margin-left: 22%;
@@ -370,6 +370,7 @@ nav img {
 .team_box a {
   font-size: 16px;
   color: #006aff;
+  padding-bottom: 30px;
 }
 .img_description {
   font-size: 23px;
@@ -386,6 +387,27 @@ nav img {
 }
 #development_teams ul li i {
   color: #006aff;
+}
+
+#get_started  {
+  background-color: #033EBB;
+  padding-bottom: 50px;
+
+}
+#get_started h3 {
+  color: white;
+  font-weight: bolder;
+  font-size: 30px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+.btn_create_account {
+  padding: 10px;
+  color: #006aff;
+  background-color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 5px;
 }
 
 @media screen and (max-width: 768px) {
