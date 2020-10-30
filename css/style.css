@@ -25,10 +25,7 @@ body {
   width: 200px;
   line-height: 80px;
 }
-/* header {
-  height: 80px;
-  color: white;
-} */
+
 nav {
   position: fixed;
   top: 0;
@@ -90,6 +87,7 @@ nav img {
 
 #jumbotron {
   width: 100vw;
+  padding-top: 80px;
   padding-bottom: 50px;
   background-image: url(https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg);
   background-repeat: no-repeat;
