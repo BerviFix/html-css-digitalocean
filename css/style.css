@@ -27,6 +27,14 @@ body {
 }
 header {
   height: 80px;
+  color: white;
+}
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
 }
 nav img {
   max-width: 100%;
@@ -412,6 +420,7 @@ nav img {
 footer {
   background-color: #031B4E;
   padding-top: 50px;
+  padding-bottom: 50px;
   color: white;
 }
 footer img {
